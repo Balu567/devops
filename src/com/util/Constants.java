@@ -1,10 +1,10 @@
 package com.util;
 
 public interface Constants {
-	public static final String USERNAME="TVM1819_TVM06_TJA31_DEV";
-	public static final String PASSWORD="tcstvm06";
+	public static final String USERNAME="system";
+	public static final String PASSWORD="balaraju";
 	public static final String DRIVERNAME="oracle.jdbc.driver.OracleDriver";
-	public static final String URL="jdbc:oracle:thin:@intvmoradb04:1521:ORAJAVADB";
+	public static final String URL="jdbc:oracle:thin:@localhost:1521:XE";
 	public static final String QUERY_0="select*from USERSTORE_TJA31_GROUP_D where USERNAME=? and PASSWORD=?";
 	public static final String QUERY_1="update USERSTORE_TJA31_GROUP_D set TIME_STAMP=? where USERNAME=?";
 	public static final String QUERY_2="insert into CUSTOMER_TJA31_GROUP_D values (?, CUSTOMER_SEQ_TJA31_GROUP_D.nextval,?,?,?)";
