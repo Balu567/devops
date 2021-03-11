@@ -134,7 +134,7 @@ align:center;
 <div class="bg-img">
 <br>
 <div class="head">
-  <h1 align="center"><font color="white">BANK RETAIL MANAGEMENT</font></h1>
+  <h1 align="center"><font color="white">BANK RETAIL MANAGEMENT BALU</font></h1>
 </div>
 
   <form action="BankServlet" class="container" method="post">
